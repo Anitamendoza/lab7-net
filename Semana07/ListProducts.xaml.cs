@@ -49,13 +49,9 @@ namespace Semana07
         }
         private void EditarProducto_Click(object sender, RoutedEventArgs e)
         {
-            // Obtener el producto seleccionado
+
             productoSeleccionado = ((FrameworkElement)sender).DataContext as Product;
-
-            // Mostrar los campos de edición
             editPanel.Visibility = Visibility.Visible;
-
-            // Cargar los valores del producto seleccionado en los campos de edición
             txtProductName.Text = productoSeleccionado.name;
             txtPrice.Text = productoSeleccionado.price.ToString();
             txtStock.Text = productoSeleccionado.stock.ToString();

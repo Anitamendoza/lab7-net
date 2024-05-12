@@ -12,6 +12,7 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
+            
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <Label Content="PRODUCTOS" Grid.Row="0" HorizontalAlignment="Center" Margin="10" FontWeight="Bold" Foreground="White" FontSize="24" />
